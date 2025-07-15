@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto 60px;
-    background: url('image/banner.jpg');
+    background: url('./B12A01-landing-launchpad/Assets/Hero-bg.png');
     background-size: cover;
     padding: 30px 40px 100px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -158,7 +158,7 @@ body {
 .action-image-placeholder {
     width: 100%;
     height: 300px;
-    background-image: url('image/webflow.png');
+    background-image: url('./B12A01-landing-launchpad/Assets/wc-mini.png');
     background-size: 100%; 
     background-position: center;
     border-radius: 8px;
@@ -309,8 +309,9 @@ section.stats-section {
 .review-card {
   width: 300px;
   margin:0 auto;
+  text-align: left;
   background-color: #fdfcf8;
-  border-radius: 8px;
+  border-radius: 2px;
   padding: 30px;
   margin: 20px;
   display: inline-block;
@@ -322,7 +323,12 @@ section.stats-section {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
+.review-header{
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    color:#000;
+}
 .review-card p {
   color: #1a1a1a;
   font-size: 14px;
