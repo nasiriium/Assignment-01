@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 5px;
+    background: url('image/banner.jpg');
+    padding: 30px 40px 100px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e1e5eb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 40px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1c56bb;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo i {
+    color: #4a6cf7;
+}
+
+.signup-btn {
+    background: #4a6cf7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.signup-btn:hover {
+    background: #3a5ae8;
+}
+
+.banner-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.banner-heading {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #1a202c;
+}
+
+.banner-heading span {
+    display: block;
+}
+
+.banner-heading .highlight {
+    color: #070a17;
+}
+
+.banner-subheading {
+    font-size: 20px;
+    color: #4a5568;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.focus-btn {
+    background: #4a6cf7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.focus-btn:hover {
+    background: #3a5ae8;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 20px 20px 60px;
+    }
+    
+    .banner-heading {
+        font-size: 36px;
+    }
+    
+    .banner-subheading {
+        font-size: 18px;
+    }
+    
+    .logo {
+        font-size: 22px;
+    }
+}
